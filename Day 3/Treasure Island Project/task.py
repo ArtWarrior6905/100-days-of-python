@@ -22,3 +22,16 @@ ____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
 ''')
 print("Welcome to Treasure Island.")
 print("Your mission is to find the treasure.")
+choice1=input("Choose your direction to go (R or L): ")
+if choice1 == "R":
+    print("Ghidorah attacked you!")
+elif choice1 == "L":
+    choice2=input("Will you swim or wait for a ship to arrive? (swim or wait): ")
+    if choice2 == "swim":
+        print("Godzilla attacked you!")
+    elif choice2 == "wait":
+        choice3=input("The ship arrived! In which door will you go? (Red, Blue or Yellow): ")
+        if choice3 == "Red":
+            print("Congratulations! You found the treasure!")
+        else:
+            print("Oh no! You found no treasure!")
