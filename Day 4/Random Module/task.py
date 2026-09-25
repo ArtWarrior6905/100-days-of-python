@@ -1,6 +1,7 @@
 import random
 
-a=random.randint(1,10)
-print(a)
-b=random.random()
-print(b)
+a=random.randint(1,2)
+if a==1:
+    print("Heads")
+else:
+    print("Tails")
