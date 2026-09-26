@@ -41,4 +41,4 @@ if (a == 0 and c == scissors) or (a == 1 and c == rock) or (a == 2 and c == pape
 elif (a == 0 and c == paper) or (a == 1 and c == scissors) or (a == 2 and c == rock):
     print("You lose!")
 else:
-    print("It's a Draw")
+    print("Draw")
